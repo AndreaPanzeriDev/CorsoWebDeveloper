@@ -1,0 +1,11 @@
+.subject{
+  background-color: red;
+  width: 20%;
+  display: inline-block;
+}
+
+.body{
+  background-color: blue;
+  width: 79%;
+  display: inline-block;
+}

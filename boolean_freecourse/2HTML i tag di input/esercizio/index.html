@@ -1,0 +1,72 @@
+<!-- ESERCIZIO TAG INPUT -->
+<!-- LA PAROLA REQUIRED FA SI CHE SE UNA CASELLA RIMANE VUOTA NON SI POSSONO INVIRE I DATI -->
+
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrazione sito internet</title>
+  </head>
+
+
+  <body>
+    <h1>Registrazione sito internet</h1>
+
+    <!-- INPUT -->
+    <form  action="index.html" method="post">
+
+        <div>
+          <input type="text" name="" placeholder="Inserisci il tuo nome" required minlength="3">
+        </div>
+
+        <div>
+          <input type="text" name="" placeholder="Inserisci il tuo cognome" required>
+        </div>
+
+        <div>
+          <input type="email" name="" placeholder="Inserisci la tua email" required>
+        </div>
+
+
+      <div >
+        <select class="" name="Regione" required>
+          <option>Abruzzo</option>
+          <option>Basilicata</option>
+          <option>Calabria</option>
+          <option>Campania</option>
+          <option>Emilia-Romagna</option>
+          <option>Friuli</option>
+          <option>Lazio</option>
+          <option>Liguria</option>
+          <option>Lombardia</option>
+          <option>Marche</option>
+          <option>Molise</option>
+          <option>Piemonte</option>
+          <option>Puglia</option>
+          <option>Sardegna</option>
+          <option>Sicilia</option>
+          <option>Toscana</option>
+          <option>Trentino</option>
+          <option>Umbria</option>
+          <option>Valle d'Aosta</option>
+          <option>Veneto</option>
+        </select>
+      </div>
+
+      <div >
+        <!-- PER SELEZIONARE UNA SOLA INFORMAZIONE ALLA VOLRA NEL NAME DOBBIAMO METTERE LO STESSO NOME -->
+        <input type="radio" name="maggiorenne"> 0-18
+        <input type="radio" name="maggiorenne">18+
+      </div>
+
+      <div>
+        <input type="checkbox" required >Accetta termini e servizi
+      </div>
+
+      <div>
+        <input type="submit" name="" value="Invia">
+      </div>
+
+    </form>
+  </body>
+</html>

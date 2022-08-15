@@ -1,0 +1,37 @@
+/*selettore{
+  proprietà: valore;
+  proprietà: valore;
+} */
+
+
+#saluto{
+  color: red;
+}
+
+#saluto2{
+  color: green;
+}
+
+/*posso usare determinato nome per usare tutto  per far valere le regole a tutti i div:
+div{
+  color: green;
+}
+*/
+#speciale{
+  color: brown;
+}
+p{
+  color: purple;
+}
+
+
+
+/*
+possiamo usare le classi per usare la stessa formattazione
+su tutti gli elementi che vogliamo
+*/
+
+
+.colore{
+  color: blue;
+}
